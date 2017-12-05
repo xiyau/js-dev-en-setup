@@ -6,6 +6,7 @@
   "scripts": {
     "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js",
+    "security-check": "nsp check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
