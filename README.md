@@ -12,3 +12,15 @@ git commit -m initializing
 
 #git push 
 push all the files to git
+
+#initializing
+npm init
+
+#install node modules
+npm install
+
+#install node security check
+npm install -g nsp
+
+#add security check to npm scripts
+nsp check
