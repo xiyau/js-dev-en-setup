@@ -7,20 +7,20 @@ git pull https://github.com/xiyau/js-dev-en-setup.git
 # staging all the files
 git add .
 
-#git commit 
+# git commit 
 git commit -m initializing
 
-#git push 
+# git push 
 push all the files to git
 
-#initializing
+# initializing
 npm init
 
-#install node modules
+# install node modules
 npm install
 
-#install node security check
+# install node security check
 npm install -g nsp
 
-#add security check to npm scripts
+# add security check to npm scripts
 nsp check
