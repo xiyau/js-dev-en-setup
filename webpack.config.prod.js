@@ -15,7 +15,7 @@ export default {
     filename: 'bundle.js'
   },
   plugins: [
-    //Eliminate duplicate packages when generating bundle
+    //Eliminate duplicate packages when generating bundle some stuff to commit to git
     new webpack.optimize.DedupePlugin(),
 
     // Minify JS
