@@ -17,7 +17,7 @@ getUsers().then(result => {
 
   global.document.getElementById('users').innerHTML = usersBody;
 
-  const deleteLinks = global.document.getElementByClassName('deleteUser');
+  const deleteLinks = global.document.getElementsByClassName('deleteUser');
   // Must use array.from to create real array from a DOM collection
   // getElementByClassName only returns an "array like" object
 
