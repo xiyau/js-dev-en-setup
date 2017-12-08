@@ -10,7 +10,7 @@ var port = 3000;
 const app = express();
 
 app.use(compression());
-app.use(express.static('dist'))
+app.use(express.static('dist'));
 
 
 app.get('/', function(req, res){
