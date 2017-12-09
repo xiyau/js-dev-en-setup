@@ -51,7 +51,8 @@ export default {
         minifyCSS: true,
         minifyURLs: true
       },
-      inject: true
+      inject: true,
+      trackJSToken: '0e6a0f8dcc5c4efb98ddcad9da0c9153'
     }),
 
 
